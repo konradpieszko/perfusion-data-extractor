@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0"?>
+<Report version="0.9">
+    <SoftwareVersion>
+        <Cvi42Version val="5.17.1(3504)"/>
+    </SoftwareVersion>
+    <Study>
+        <AccessionNumber val=""/>
+        <InstitutionName val="Hospital de la Santa Creu i Sant Pau"/>
+        <InstitutionAddress val="Avda sant antoni m claret 167"/>
+        <ReferringPhysicianAddress val=""/>
+        <ReferringPhysicianTelephoneNumbers val=""/>
+        <StationName val=""/>
+        <Manufacturer val="Philips"/>
+        <ManufacturerModelName val="Ingenia Elition X"/>
+        <SoftwareVersions val="5.7.1\5.7.1.4"/>
+        <StudyDescription val="RM CARDIACA ESTUDIOS FUNCIONALES"/>
+        <BodyPartExamined val="HEART"/>
+        <InstitutionalDepartmentName val=""/>
+        <PhysiciansOfRecord val=""/>
+        <PerformingPhysicianName val=""/>
+        <NameOfPhysiciansReadingStudy val=""/>
+        <OperatorsName val=""/>
+        <AdmittingDiagnosesDescription val=""/>
+        <DerivationDescription val=""/>
+        <DeviceSerialNumber val=""/>
+        <ProtocolName val="WIP SURVEY_bFFE"/>
+        <StudyInstanceUID val="1.3.6.1.4.1.53684.1.1.2.1089482907.13304.1734599765.1096870"/>
+        <StudyID val=""/>
+        <StudyDate val="2024-12-05"/>
+        <AcquisitionDate val="2024-12-05"/>
+        <StudyTime val="163509"/>
+        <MedicalAlerts val=""/>
+        <RequestingPhysician val=""/>
+        <Modality val="MR"/>
+        <ReferringPhysician val=""/>
+        <History val=""/>
+        <Request val=""/>
+        <Comments val=""/>
+        <Cvi42ReportingUser physicianid="Kpieszko" lastname="Pieszko" firstname="Konrad" userid="Kpieszko"/>
+    </Study>
+    <Patient>
+        <PatientID val=""/>
+        <IssuerOfPatientID val=""/>
+        <TypeOfPatientID val=""/>
+        <PatientBirthTime val=""/>
+        <RETIRED_OtherPatientIDs val=""/>
+        <OtherPatientNames val=""/>
+        <EthnicGroup val=""/>
+        <Occupation val=""/>
+        <AdditionalPatientHistory val=""/>
+        <PatientComments val=""/>
+        <Name val="perfu_quant_test"/>
+        <DicomPatientName val="perfu_quant_test"/>
+        <Sex val="F"/>
+        <BirthDate val="1949-05-05"/>
+        <Age val="75 Y."/>
+        <Height val="0"/>
+        <Weight val="87"/>
+        <Bsa val="-1" unit="m^2" method="Mosteller"/>
+        <CustomPatientID val=""/>
+        <BloodPressure syst="0" diast="0"/>
+        <HeartRate val="60"/>
+    </Patient>
+    <ReportText>
+        <Findings val=""/>
+        <Summary val=""/>
+    </ReportText>
+    <BiTriPlanarFunction>
+    <Series Role="2CV">
+        <Cmr42SeriesID val="5"/>
+        <Modality val="MR"/>
+        <StudyInstanceUID val="1.3.6.1.4.1.53684.1.1.2.1089482907.13304.1734599765.1096870"/>
+        <SeriesInstanceUID val="1.3.6.1.4.1.53684.1.1.3.1089482907.13304.1734599766.1097054"/>
+        <SeriesNumber val="501"/>
+        <Description val="cs_Cine_4CH"/>
+        <SequenceName val=""/>
+        <ProtocolName val="WIP cs_Cine_4CH"/>
+        <ContrastBolusAgent val=""/>
+        <Manufacturer val="Philips"/>
+    </Series>
+    <Series Role="4CV">
+        <Cmr42SeriesID val="3"/>
+        <Modality val="MR"/>
+        <StudyInstanceUID val="1.3.6.1.4.1.53684.1.1.2.1089482907.13304.1734599765.1096870"/>
+        <SeriesInstanceUID val="1.3.6.1.4.1.53684.1.1.3.1089482907.13304.1734599766.1096921"/>
+        <SeriesNumber val="301"/>
+        <Description val="cs_Cine_2CH"/>
+        <SequenceName val=""/>
+        <ProtocolName val="WIP cs_Cine_2CH"/>
+        <ContrastBolusAgent val=""/>
+        <Manufacturer val="Philips"/>
+    </Series>
+    <Series Role="SAX"/>
+    <Monoplanar2CV>
+        <EDV val="129.813" unit="ml"/>
+        <ESV val="42.8145" unit="ml"/>
+        <LVEDAV val="49.4918" unit="ml"/>
+        <LVESAV val="102.094" unit="ml"/>
+        <LVEDA_Area val="18.3818" unit="cm^2"/>
+        <LVESA_Area val="26.4338" unit="cm^2"/>
+        <PhaseIndex_diast val="25"/>
+        <PhaseIndex_syst val="12"/>
+        <SV val="86.9988" unit="ml"/>
+        <HR val="60" unit="1/min"/>
+        <CO val="5.21993" unit="l/min"/>
+        <EF val="67.0184" unit="%"/>
+        <MyoMass_diast val="95.6585" unit="g"/>
+        <MyoMass_syst val="102.613" unit="g"/>
+        <MinLeftAtrialVolume val="47.5917" unit="ml"/>
+        <MinLeftAtrialArea val="16.5953" unit="cm^2"/>
+        <PhaseMinLeftAtrialVolume val="1"/>
+        <MaxLeftAtrialVolume val="109.564" unit="ml"/>
+        <MaxLeftAtrialArea val="27.2435" unit="cm^2"/>
+        <PhaseMaxLAV val="14"/>
+        <LeftAtrialEjectionFraction val="56.5629" unit="%"/>
+        <Mapse val="20.3034" unit="mm" label="Inferior"/>
+        <Mapse val="15.6201" unit="mm" label="Anterior"/>
+        <LVLongAxisStrain val="-20.705" unit="%"/>
+        <LVLongAxisDifference val="-18.3816" unit="mm"/>
+        <LvAvJunctionStrain val="-19.2321" unit="%"/>
+        <LvAvJunctionDifference val="-17.6194" unit="mm"/>
+    </Monoplanar2CV>
+    <slice tag="2CV" series="5" nb="1">
+        <frame nb="1">
+            <EpicardialContour area="47.5603" len="8.83218"/>
+            <EndoBasalContour area="35.3191" len="8.16751"/>
+            <MyoVolume val="87.7481"/>
+            <LeftAtriumContour area="16.5953" len="5.06029"/>
+            <LaVolume val="47.5917"/>
+        </frame>
+        <frame nb="2">
+            <EpicardialContour area="46.2016" len="8.65455"/>
+            <EndoBasalContour area="35.4204" len="8.22772"/>
+            <MyoVolume val="79.924"/>
+            <LeftAtriumContour area="17.3963" len="5.11753"/>
+            <LaVolume val="51.2343"/>
+        </frame>
+        <frame nb="3">
+            <EpicardialContour area="45.8139" len="8.59112"/>
+            <EndoBasalContour area="33.9419" len="8.02479"/>
+            <MyoVolume val="85.5197"/>
+            <LeftAtriumContour area="18.7295" len="5.20688"/>
+            <LaVolume val="58.836"/>
+        </frame>
+        <frame nb="4">
+            <EpicardialContour area="43.4924" len="8.40691"/>
+            <EndoBasalContour area="32.0191" len="7.87764"/>
+            <MyoVolume val="80.5199"/>
+            <LeftAtriumContour area="20.2425" len="5.39365"/>
+            <LaVolume val="65.7593"/>
+        </frame>
+        <frame nb="5">
+            <EpicardialContour area="42.2485" len="8.28861"/>
+            <EndoBasalContour area="31.1821" len="7.93393"/>
+            <MyoVolume val="78.7667"/>
+            <LeftAtriumContour area="21.2475" len="5.44171"/>
+            <LaVolume val="71.2477"/>
+        </frame>
+        <frame nb="6">
+            <EpicardialContour area="38.9654" len="7.87241"/>
+            <EndoBasalContour area="27.794" len="7.38937"/>
+            <MyoVolume val="74.9694"/>
+            <LeftAtriumContour area="22.1753" len="5.5921"/>
+            <LaVolume val="76.8566"/>
+        </frame>
+        <frame nb="7">
+            <EpicardialContour area="36.9766" len="7.59322"/>
+            <EndoBasalContour area="23.2331" len="6.90298"/>
+            <MyoVolume val="86.4703"/>
+            <LeftAtriumContour area="24.1147" len="5.7557"/>
+            <LaVolume val="88.99"/>
+        </frame>
+        <frame nb="8">
+            <EpicardialContour area="35.8206" len="7.35483"/>
+            <EndoBasalContour area="20.6722" len="6.68548"/>
+            <MyoVolume val="93.8274"/>
+            <LeftAtriumContour area="25.9716" len="5.89593"/>
+            <LaVolume val="98.6287"/>
+        </frame>
+        <frame nb="9">
+            <EpicardialContour area="35.4834" len="7.34045"/>
+            <EndoBasalContour area="19.7769" len="6.5977"/>
+            <MyoVolume val="95.2754"/>
+            <LeftAtriumContour area="26.7247" len="5.89886"/>
+            <LaVolume val="103.575"/>
+        </frame>
+        <frame nb="10">
+            <EpicardialContour area="34.3395" len="7.14709"/>
+            <EndoBasalContour area="18.5298" len="6.48016"/>
+            <MyoVolume val="95.0725"/>
+            <LeftAtriumContour area="26.3545" len="6.00887"/>
+            <LaVolume val="100.14"/>
+        </frame>
+        <frame nb="11">
+            <EpicardialContour area="34.255" len="7.15039"/>
+            <EndoBasalContour area="18.0328" len="6.35835"/>
+            <MyoVolume val="95.884"/>
+            <LeftAtriumContour area="26.8241" len="6.05601"/>
+            <LaVolume val="102.961"/>
+        </frame>
+        <frame nb="12">
+            <EpicardialContour area="33.8445" len="7.03966"/>
+            <EndoBasalContour area="17.147" len="6.17918"/>
+            <MyoVolume val="97.7266"/>
+            <LeftAtriumContour area="26.4338" len="5.9785"/>
+            <LaVolume val="102.094"/>
+        </frame>
+        <frame nb="13">
+            <EpicardialContour area="34.3589" len="7.15209"/>
+            <EndoBasalContour area="18.5793" len="6.44099"/>
+            <MyoVolume val="94.6173"/>
+            <LeftAtriumContour area="27.7311" len="6.13144"/>
+            <LaVolume val="109.152"/>
+        </frame>
+        <frame nb="14">
+            <EpicardialContour area="36.7625" len="7.57353"/>
+            <EndoBasalContour area="20.6319" len="6.63965"/>
+            <MyoVolume val="97.0518"/>
+            <LeftAtriumContour area="27.2435" len="6.14178"/>
+            <LaVolume val="109.564"/>
+        </frame>
+        <frame nb="15">
+            <EpicardialContour area="39.6759" len="7.90019"/>
+            <EndoBasalContour area="24.9162" len="7.28788"/>
+            <MyoVolume val="96.8283"/>
+            <LeftAtriumContour area="25.524" len="5.91591"/>
+            <LaVolume val="97.9826"/>
+        </frame>
+        <frame nb="16">
+            <EpicardialContour area="40.9684" len="7.91423"/>
+            <EndoBasalContour area="26.7342" len="7.30486"/>
+            <MyoVolume val="96.9644"/>
+            <LeftAtriumContour area="23.7942" len="5.64279"/>
+            <LaVolume val="90.7102"/>
+        </frame>
+        <frame nb="17">
+            <EpicardialContour area="41.877" len="8.03111"/>
+            <EndoBasalContour area="28.3619" len="7.45158"/>
+            <MyoVolume val="93.7205"/>
+            <LeftAtriumContour area="23.1896" len="5.54237"/>
+            <LaVolume val="87.988"/>
+        </frame>
+        <frame nb="18">
+            <EpicardialContour area="42.2643" len="8.04138"/>
+            <EndoBasalContour area="29.2479" len="7.53415"/>
+            <MyoVolume val="92.1772"/>
+            <LeftAtriumContour area="23.0798" len="5.55799"/>
+            <LaVolume val="85.5463"/>
+        </frame>
+        <frame nb="19">
+            <EpicardialContour area="43.4521" len="8.26091"/>
+            <EndoBasalContour area="30.1698" len="7.69465"/>
+            <MyoVolume val="93.5957"/>
+            <LeftAtriumContour area="22.5747" len="5.46716"/>
+            <LaVolume val="82.8248"/>
+        </frame>
+        <frame nb="20">
+            <EpicardialContour area="42.6304" len="9.02924"/>
+            <EndoBasalContour area="30.0397" len="7.69767"/>
+            <MyoVolume val="71.3401"/>
+            <LeftAtriumContour area="22.4504" len="5.44284"/>
+            <LaVolume val="82.7927"/>
+        </frame>
+        <frame nb="21">
+            <EpicardialContour area="43.1656" len="8.20186"/>
+            <EndoBasalContour area="30.2432" len="7.64805"/>
+            <MyoVolume val="91.3199"/>
+            <LeftAtriumContour area="22.4216" len="5.47267"/>
+            <LaVolume val="81.7914"/>
+        </frame>
+        <frame nb="22">
+            <EpicardialContour area="43.0877" len="9.07306"/>
+            <EndoBasalContour area="30.3092" len="8.2172"/>
+            <MyoVolume val="78.7934"/>
+            <LeftAtriumContour area="24.3251" len="6.45133"/>
+            <LaVolume val="77.8538"/>
+        </frame>
+        <frame nb="23">
+            <EpicardialContour area="44.3322" len="8.72851"/>
+            <EndoBasalContour area="32.1423" len="8.06206"/>
+            <MyoVolume val="82.3505"/>
+            <LeftAtriumContour area="18.8145" len="4.98563"/>
+            <LaVolume val="65.0128"/>
+        </frame>
+        <frame nb="24">
+            <EpicardialContour area="47.4033" len="8.75159"/>
+            <EndoBasalContour area="35.0002" len="8.15927"/>
+            <MyoVolume val="90.5052"/>
+            <LeftAtriumContour area="16.6921" len="4.78097"/>
+            <LaVolume val="54.496"/>
+        </frame>
+        <frame nb="25">
+            <EpicardialContour area="48.1848" len="8.87782"/>
+            <EndoBasalContour area="35.5445" len="8.19352"/>
+            <MyoVolume val="91.1033"/>
+            <LeftAtriumContour area="18.3818" len="5.80318"/>
+            <LaVolume val="49.4918"/>
+        </frame>
+    </slice>
+    <Monoplanar4CV>
+        <EDV val="117.438" unit="ml"/>
+        <ESV val="50.0884" unit="ml"/>
+        <LVEDAV val="58.9131" unit="ml"/>
+        <LVESAV val="88.4868" unit="ml"/>
+        <LVEDA_Area val="18.2232" unit="cm^2"/>
+        <LVESA_Area val="23.9442" unit="cm^2"/>
+        <PhaseIndex_diast val="3"/>
+        <PhaseIndex_syst val="13"/>
+        <SV val="67.3491" unit="ml"/>
+        <HR val="60" unit="1/min"/>
+        <CO val="4.04095" unit="l/min"/>
+        <EF val="57.3489" unit="%"/>
+        <MyoMass_diast val="94.4986" unit="g"/>
+        <MyoMass_syst val="96.4623" unit="g"/>
+        <MinLeftAtrialVolume val="49.1896" unit="ml"/>
+        <MinLeftAtrialArea val="16.0306" unit="cm^2"/>
+        <PhaseMinLeftAtrialVolume val="1"/>
+        <MaxLeftAtrialVolume val="89.2126" unit="ml"/>
+        <MaxLeftAtrialArea val="23.9678" unit="cm^2"/>
+        <PhaseMaxLAV val="12"/>
+        <LeftAtrialEjectionFraction val="44.8625" unit="%"/>
+        <Mapse val="27.5688" unit="mm" label="Lateral"/>
+        <Mapse val="10.2985" unit="mm" label="Septal"/>
+        <LVLongAxisStrain val="-12.5631" unit="%"/>
+        <LVLongAxisDifference val="-10.5957" unit="mm"/>
+        <LvAvJunctionStrain val="-12.6766" unit="%"/>
+        <LvAvJunctionDifference val="-11.0731" unit="mm"/>
+    </Monoplanar4CV>
+    <slice tag="4CV" series="3" nb="1">
+        <frame nb="1">
+            <EpicardialContour area="45.9044" len="8.52501"/>
+            <EndoBasalContour area="33.7119" len="8.67157"/>
+            <MyoVolume val="98.5661"/>
+            <LeftAtriumContour area="16.0306" len="4.4345"/>
+            <LaVolume val="49.1896"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="2">
+            <EpicardialContour area="45.8478" len="9.26956"/>
+            <EndoBasalContour area="34.3073" len="8.59366"/>
+            <MyoVolume val="76.2293"/>
+            <LeftAtriumContour area="16.2103" len="4.3932"/>
+            <LaVolume val="50.7697"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="3">
+            <EpicardialContour area="45.4896" len="8.43402"/>
+            <EndoBasalContour area="32.8354" len="7.7385"/>
+            <MyoVolume val="89.9987"/>
+            <LeftAtriumContour area="18.2232" len="4.78491"/>
+            <LaVolume val="58.9131"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="4">
+            <EpicardialContour area="43.5302" len="8.23919"/>
+            <EndoBasalContour area="30.4491" len="8.01344"/>
+            <MyoVolume val="97.008"/>
+            <LeftAtriumContour area="18.9831" len="4.90766"/>
+            <LaVolume val="62.3283"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="5">
+            <EpicardialContour area="41.3612" len="8.09883"/>
+            <EndoBasalContour area="27.9136" len="7.76265"/>
+            <MyoVolume val="94.1008"/>
+            <LeftAtriumContour area="20.1318" len="4.92329"/>
+            <LaVolume val="69.8762"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="6">
+            <EpicardialContour area="39.3333" len="8.33669"/>
+            <EndoBasalContour area="25.6303" len="7.46277"/>
+            <MyoVolume val="82.8059"/>
+            <LeftAtriumContour area="21.1278" len="5.11474"/>
+            <LaVolume val="74.0918"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="7">
+            <EpicardialContour area="38.1651" len="8.16337"/>
+            <EndoBasalContour area="23.7664" len="7.33613"/>
+            <MyoVolume val="86.0992"/>
+            <LeftAtriumContour area="21.8738" len="5.30567"/>
+            <LaVolume val="76.5587"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="8">
+            <EpicardialContour area="36.8108" len="7.89537"/>
+            <EndoBasalContour area="21.9309" len="7.08993"/>
+            <MyoVolume val="88.0963"/>
+            <LeftAtriumContour area="22.5908" len="5.31674"/>
+            <LaVolume val="81.4888"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="9">
+            <EpicardialContour area="35.9813" len="7.76265"/>
+            <EndoBasalContour area="20.8971" len="6.86253"/>
+            <MyoVolume val="87.5532"/>
+            <LeftAtriumContour area="23.2956" len="5.46711"/>
+            <LaVolume val="84.2589"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="10">
+            <EpicardialContour area="35.9531" len="7.79772"/>
+            <EndoBasalContour area="20.5633" len="6.82831"/>
+            <MyoVolume val="88.1452"/>
+            <LeftAtriumContour area="23.6352" len="5.4367"/>
+            <LaVolume val="87.217"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="11">
+            <EpicardialContour area="35.8549" len="7.729"/>
+            <EndoBasalContour area="20.4427" len="6.81999"/>
+            <MyoVolume val="89.173"/>
+            <LeftAtriumContour area="23.8315" len="5.50072"/>
+            <LaVolume val="87.64"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="12">
+            <EpicardialContour area="35.1581" len="7.66645"/>
+            <EndoBasalContour area="19.9991" len="6.72897"/>
+            <MyoVolume val="86.4064"/>
+            <LeftAtriumContour area="23.9678" len="5.46574"/>
+            <LaVolume val="89.2126"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="13">
+            <EpicardialContour area="35.1174" len="7.37445"/>
+            <EndoBasalContour area="20.1123" len="6.85603"/>
+            <MyoVolume val="91.8689"/>
+            <LeftAtriumContour area="23.9442" len="5.49972"/>
+            <LaVolume val="88.4868"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="14">
+            <EpicardialContour area="37.0013" len="7.66"/>
+            <EndoBasalContour area="21.6975" len="6.9549"/>
+            <MyoVolume val="94.2558"/>
+            <LeftAtriumContour area="20.9081" len="5.30866"/>
+            <LaVolume val="72.2825"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="15">
+            <EpicardialContour area="37.8051" len="8.11975"/>
+            <EndoBasalContour area="23.9706" len="7.40319"/>
+            <MyoVolume val="83.5283"/>
+            <LeftAtriumContour area="21.8808" len="5.20101"/>
+            <LaVolume val="78.1372"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="16">
+            <EpicardialContour area="38.2178" len="8.21916"/>
+            <EndoBasalContour area="25.1452" len="7.40421"/>
+            <MyoVolume val="78.3568"/>
+            <LeftAtriumContour area="21.7878" len="5.06531"/>
+            <LaVolume val="79.55"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="17">
+            <EpicardialContour area="39.0722" len="8.45216"/>
+            <EndoBasalContour area="26.4145" len="7.73065"/>
+            <MyoVolume val="76.7053"/>
+            <LeftAtriumContour area="21.8449" len="5.11781"/>
+            <LaVolume val="79.1468"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="18">
+            <EpicardialContour area="39.6491" len="8.59716"/>
+            <EndoBasalContour area="27.3719" len="7.84726"/>
+            <MyoVolume val="74.1716"/>
+            <LeftAtriumContour area="20.6534" len="5.29029"/>
+            <LaVolume val="69.7749"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="19">
+            <EpicardialContour area="39.7558" len="8.64503"/>
+            <EndoBasalContour area="27.6791" len="7.89892"/>
+            <MyoVolume val="72.8564"/>
+            <LeftAtriumContour area="22.2665" len="5.12495"/>
+            <LaVolume val="82.1172"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="20">
+            <EpicardialContour area="40.267" len="8.62035"/>
+            <EndoBasalContour area="27.7484" len="7.85978"/>
+            <MyoVolume val="76.5045"/>
+            <LeftAtriumContour area="22.3901" len="5.15318"/>
+            <LaVolume val="82.5762"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="21">
+            <EpicardialContour area="40.6268" len="8.67203"/>
+            <EndoBasalContour area="27.9974" len="7.85906"/>
+            <MyoVolume val="76.8955"/>
+            <LeftAtriumContour area="22.5838" len="5.13247"/>
+            <LaVolume val="84.35"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="22">
+            <EpicardialContour area="40.4256" len="8.69971"/>
+            <EndoBasalContour area="28.3071" len="7.98761"/>
+            <MyoVolume val="74.2996"/>
+            <LeftAtriumContour area="22.4727" len="5.17668"/>
+            <LaVolume val="82.8093"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="23">
+            <EpicardialContour area="41.9591" len="8.85471"/>
+            <EndoBasalContour area="29.9987" len="8.06458"/>
+            <MyoVolume val="74.0507"/>
+            <LeftAtriumContour area="20.8855" len="5.10212"/>
+            <LaVolume val="72.5708"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="24">
+            <EpicardialContour area="45.8686" len="8.64032"/>
+            <EndoBasalContour area="32.0817" len="8.49069"/>
+            <MyoVolume val="103.796"/>
+            <LeftAtriumContour area="18.6927" len="4.63138"/>
+            <LaVolume val="64.0402"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+        <frame nb="25">
+            <EpicardialContour area="43.8423" len="8.25031"/>
+            <EndoBasalContour area="32.6229" len="8.68521"/>
+            <MyoVolume val="93.7467"/>
+            <LeftAtriumContour area="16.3363" len="4.57564"/>
+            <LaVolume val="49.508"/>
+            <RightAtriumContour area="-1" len="-1"/>
+            <RaVolume val="-1"/>
+        </frame>
+    </slice>
+    <AtrialStrain tag="2CV" lv_diast="25" lv_syst="12">
+        <Atrium which="left">
+            <LaxStrain val="3.021" unit="%"/>
+            <LaxDifference val="1.75314" unit="mm"/>
+            <AvJunctionStrain val="8.19768" unit="%"/>
+            <AvJunctionDifference val="4.7771" unit="mm"/>
+        </Atrium>
+    </AtrialStrain>
+    <AtrialStrain tag="4CV" lv_diast="3" lv_syst="13">
+        <Atrium which="left">
+            <LaxStrain val="14.939" unit="%"/>
+            <LaxDifference val="7.14815" unit="mm"/>
+            <AvJunctionStrain val="14.648" unit="%"/>
+            <AvJunctionDifference val="7.02712" unit="mm"/>
+        </Atrium>
+        <Atrium which="right"/>
+    </AtrialStrain>
+    <LongAxisStrainGraphResults>
+        <frame nb="1">
+            <LvAv4CvJunctionStrain val="1.00264" unit="%"/>
+            <LvAv2CvJunctionStrain val="-0.917102" unit="%"/>
+            <LaAv4CvJunctionStrain val="-7.3732" unit="%"/>
+            <LaAv2CvJunctionStrain val="-9.93655" unit="%"/>
+            <MapseAnterior val="0.398297" unit="mm"/>
+            <MapseInferior val="0" unit="mm"/>
+            <LvLax2CvStrain val="-0.514083" unit="%"/>
+            <LvLax4CvStrain val="1.07886" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-12.8015" unit="%"/>
+            <LeftAtrialLax4CvStrain val="-7.32306" unit="%"/>
+        </frame>
+        <frame nb="2">
+            <LvAv4CvJunctionStrain val="6.05667" unit="%"/>
+            <LvAv2CvJunctionStrain val="-1.63548" unit="%"/>
+            <LaAv4CvJunctionStrain val="-8.37169" unit="%"/>
+            <LaAv2CvJunctionStrain val="-9.05349" unit="%"/>
+            <MapseAnterior val="2.42274" unit="mm"/>
+            <MapseInferior val="0" unit="mm"/>
+            <LvLax2CvStrain val="-2.51492" unit="%"/>
+            <LvLax4CvStrain val="9.90677" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-11.8151" unit="%"/>
+            <LeftAtrialLax4CvStrain val="-8.18637" unit="%"/>
+        </frame>
+        <frame nb="3">
+            <LvAv4CvJunctionStrain val="0" unit="%"/>
+            <LvAv2CvJunctionStrain val="-2.20479" unit="%"/>
+            <LaAv4CvJunctionStrain val="0" unit="%"/>
+            <LaAv2CvJunctionStrain val="-6.87912" unit="%"/>
+            <MapseAnterior val="2.49532" unit="mm"/>
+            <MapseInferior val="2.38978" unit="mm"/>
+            <LvLax2CvStrain val="-3.22935" unit="%"/>
+            <LvLax4CvStrain val="0" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-10.2754" unit="%"/>
+            <LeftAtrialLax4CvStrain val="0" unit="%"/>
+        </frame>
+        <frame nb="4">
+            <LvAv4CvJunctionStrain val="-2.72818" unit="%"/>
+            <LvAv2CvJunctionStrain val="-4.67091" unit="%"/>
+            <LaAv4CvJunctionStrain val="2.33116" unit="%"/>
+            <LaAv2CvJunctionStrain val="-4.27334" unit="%"/>
+            <MapseAnterior val="6.86701" unit="mm"/>
+            <MapseInferior val="1.83606" unit="mm"/>
+            <LvLax2CvStrain val="-5.30427" unit="%"/>
+            <LvLax4CvStrain val="-2.31011" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-7.05708" unit="%"/>
+            <LeftAtrialLax4CvStrain val="2.56547" unit="%"/>
+        </frame>
+        <frame nb="5">
+            <LvAv4CvJunctionStrain val="-4.53631" unit="%"/>
+            <LvAv2CvJunctionStrain val="-6.04611" unit="%"/>
+            <LaAv4CvJunctionStrain val="2.63509" unit="%"/>
+            <LaAv2CvJunctionStrain val="-3.35089" unit="%"/>
+            <MapseAnterior val="5.79929" unit="mm"/>
+            <MapseInferior val="1.25952" unit="mm"/>
+            <LvLax2CvStrain val="-6.63679" unit="%"/>
+            <LvLax4CvStrain val="-3.97428" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-6.22893" unit="%"/>
+            <LeftAtrialLax4CvStrain val="2.89202" unit="%"/>
+        </frame>
+        <frame nb="6">
+            <LvAv4CvJunctionStrain val="-4.62241" unit="%"/>
+            <LvAv2CvJunctionStrain val="-9.81677" unit="%"/>
+            <LaAv4CvJunctionStrain val="6.93915" unit="%"/>
+            <LaAv2CvJunctionStrain val="0.496062" unit="%"/>
+            <MapseAnterior val="7.9285" unit="mm"/>
+            <MapseInferior val="8.76253" unit="mm"/>
+            <LvLax2CvStrain val="-11.325" unit="%"/>
+            <LvLax4CvStrain val="-1.15401" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-3.63741" unit="%"/>
+            <LeftAtrialLax4CvStrain val="6.89319" unit="%"/>
+        </frame>
+        <frame nb="7">
+            <LvAv4CvJunctionStrain val="-6.5282" unit="%"/>
+            <LvAv2CvJunctionStrain val="-13.1503" unit="%"/>
+            <LaAv4CvJunctionStrain val="10.8483" unit="%"/>
+            <LaAv2CvJunctionStrain val="3.37083" unit="%"/>
+            <MapseAnterior val="12.9508" unit="mm"/>
+            <MapseInferior val="12.7843" unit="mm"/>
+            <LvLax2CvStrain val="-14.4697" unit="%"/>
+            <LvLax4CvStrain val="-3.20904" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-0.81829" unit="%"/>
+            <LeftAtrialLax4CvStrain val="10.8835" unit="%"/>
+        </frame>
+        <frame nb="8">
+            <LvAv4CvJunctionStrain val="-9.53751" unit="%"/>
+            <LvAv2CvJunctionStrain val="-15.8761" unit="%"/>
+            <LaAv4CvJunctionStrain val="11.3258" unit="%"/>
+            <LaAv2CvJunctionStrain val="5.5719" unit="%"/>
+            <MapseAnterior val="14.6465" unit="mm"/>
+            <MapseInferior val="15.9443" unit="mm"/>
+            <LvLax2CvStrain val="-17.155" unit="%"/>
+            <LvLax4CvStrain val="-6.38667" unit="%"/>
+            <LeftAtrialLax2CvStrain val="1.59827" unit="%"/>
+            <LeftAtrialLax4CvStrain val="11.1148" unit="%"/>
+        </frame>
+        <frame nb="9">
+            <LvAv4CvJunctionStrain val="-11.1088" unit="%"/>
+            <LvAv2CvJunctionStrain val="-16.1478" unit="%"/>
+            <LaAv4CvJunctionStrain val="14.141" unit="%"/>
+            <LaAv2CvJunctionStrain val="5.71853" unit="%"/>
+            <MapseAnterior val="14.6844" unit="mm"/>
+            <MapseInferior val="15.9779" unit="mm"/>
+            <LvLax2CvStrain val="-17.317" unit="%"/>
+            <LvLax4CvStrain val="-7.96026" unit="%"/>
+            <LeftAtrialLax2CvStrain val="1.64868" unit="%"/>
+            <LeftAtrialLax4CvStrain val="14.2574" unit="%"/>
+        </frame>
+        <frame nb="10">
+            <LvAv4CvJunctionStrain val="-10.6304" unit="%"/>
+            <LvAv2CvJunctionStrain val="-18.1159" unit="%"/>
+            <LaAv4CvJunctionStrain val="13.333" unit="%"/>
+            <LaAv2CvJunctionStrain val="8.36938" unit="%"/>
+            <MapseAnterior val="16.3738" unit="mm"/>
+            <MapseInferior val="16.0521" unit="mm"/>
+            <LvLax2CvStrain val="-19.4949" unit="%"/>
+            <LvLax4CvStrain val="-7.54448" unit="%"/>
+            <LeftAtrialLax2CvStrain val="3.54437" unit="%"/>
+            <LeftAtrialLax4CvStrain val="13.6218" unit="%"/>
+        </frame>
+        <frame nb="11">
+            <LvAv4CvJunctionStrain val="-11.4904" unit="%"/>
+            <LvAv2CvJunctionStrain val="-17.7756" unit="%"/>
+            <LaAv4CvJunctionStrain val="14.6673" unit="%"/>
+            <LaAv2CvJunctionStrain val="8.74824" unit="%"/>
+            <MapseAnterior val="16.3738" unit="mm"/>
+            <MapseInferior val="16.8572" unit="mm"/>
+            <LvLax2CvStrain val="-19.4577" unit="%"/>
+            <LvLax4CvStrain val="-8.35922" unit="%"/>
+            <LeftAtrialLax2CvStrain val="4.35666" unit="%"/>
+            <LeftAtrialLax4CvStrain val="14.9599" unit="%"/>
+        </frame>
+        <frame nb="12">
+            <LvAv4CvJunctionStrain val="-12.1463" unit="%"/>
+            <LvAv2CvJunctionStrain val="-19.2321" unit="%"/>
+            <LaAv4CvJunctionStrain val="13.9481" unit="%"/>
+            <LaAv2CvJunctionStrain val="8.19768" unit="%"/>
+            <MapseAnterior val="15.6201" unit="mm"/>
+            <MapseInferior val="20.3034" unit="mm"/>
+            <LvLax2CvStrain val="-20.705" unit="%"/>
+            <LvLax4CvStrain val="-9.10093" unit="%"/>
+            <LeftAtrialLax2CvStrain val="3.021" unit="%"/>
+            <LeftAtrialLax4CvStrain val="14.2287" unit="%"/>
+        </frame>
+        <frame nb="13">
+            <LvAv4CvJunctionStrain val="-12.6766" unit="%"/>
+            <LvAv2CvJunctionStrain val="-17.7436" unit="%"/>
+            <LaAv4CvJunctionStrain val="14.648" unit="%"/>
+            <LaAv2CvJunctionStrain val="9.70219" unit="%"/>
+            <MapseAnterior val="15.5858" unit="mm"/>
+            <MapseInferior val="14.6736" unit="mm"/>
+            <LvLax2CvStrain val="-19.4387" unit="%"/>
+            <LvLax4CvStrain val="-12.5631" unit="%"/>
+            <LeftAtrialLax2CvStrain val="5.65649" unit="%"/>
+            <LeftAtrialLax4CvStrain val="14.939" unit="%"/>
+        </frame>
+        <frame nb="14">
+            <LvAv4CvJunctionStrain val="-9.5113" unit="%"/>
+            <LvAv2CvJunctionStrain val="-13.6431" unit="%"/>
+            <LaAv4CvJunctionStrain val="16.4676" unit="%"/>
+            <LaAv2CvJunctionStrain val="10.6134" unit="%"/>
+            <MapseAnterior val="14.1451" unit="mm"/>
+            <MapseInferior val="14.2332" unit="mm"/>
+            <LvLax2CvStrain val="-14.6915" unit="%"/>
+            <LvLax4CvStrain val="-9.1774" unit="%"/>
+            <LeftAtrialLax2CvStrain val="5.83468" unit="%"/>
+            <LeftAtrialLax4CvStrain val="10.946" unit="%"/>
+        </frame>
+        <frame nb="15">
+            <LvAv4CvJunctionStrain val="-7.06438" unit="%"/>
+            <LvAv2CvJunctionStrain val="-9.70556" unit="%"/>
+            <LaAv4CvJunctionStrain val="8.37986" unit="%"/>
+            <LaAv2CvJunctionStrain val="6.31981" unit="%"/>
+            <MapseAnterior val="7.56764" unit="mm"/>
+            <MapseInferior val="8.12369" unit="mm"/>
+            <LvLax2CvStrain val="-11.012" unit="%"/>
+            <LvLax4CvStrain val="-3.72624" unit="%"/>
+            <LeftAtrialLax2CvStrain val="1.94253" unit="%"/>
+            <LeftAtrialLax4CvStrain val="8.69615" unit="%"/>
+        </frame>
+        <frame nb="16">
+            <LvAv4CvJunctionStrain val="-5.7972" unit="%"/>
+            <LvAv2CvJunctionStrain val="-8.92085" unit="%"/>
+            <LaAv4CvJunctionStrain val="5.7507" unit="%"/>
+            <LaAv2CvJunctionStrain val="2.62713" unit="%"/>
+            <MapseAnterior val="7.01556" unit="mm"/>
+            <MapseInferior val="8.12369" unit="mm"/>
+            <LvLax2CvStrain val="-10.8538" unit="%"/>
+            <LvLax4CvStrain val="-2.54755" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-2.76389" unit="%"/>
+            <LeftAtrialLax4CvStrain val="5.86007" unit="%"/>
+        </frame>
+        <frame nb="17">
+            <LvAv4CvJunctionStrain val="-3.21689" unit="%"/>
+            <LvAv2CvJunctionStrain val="-8.60898" unit="%"/>
+            <LaAv4CvJunctionStrain val="6.67409" unit="%"/>
+            <LaAv2CvJunctionStrain val="0.245072" unit="%"/>
+            <MapseAnterior val="6.22478" unit="mm"/>
+            <MapseInferior val="7.34423" unit="mm"/>
+            <LvLax2CvStrain val="-9.53732" unit="%"/>
+            <LvLax4CvStrain val="0.215014" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-4.49426" unit="%"/>
+            <LeftAtrialLax4CvStrain val="6.9573" unit="%"/>
+        </frame>
+        <frame nb="18">
+            <LvAv4CvJunctionStrain val="-1.5435" unit="%"/>
+            <LvAv2CvJunctionStrain val="-8.5252" unit="%"/>
+            <LaAv4CvJunctionStrain val="13.7775" unit="%"/>
+            <LaAv2CvJunctionStrain val="0.204881" unit="%"/>
+            <MapseAnterior val="6.20244" unit="mm"/>
+            <MapseInferior val="6.56888" unit="mm"/>
+            <LvLax2CvStrain val="-9.42169" unit="%"/>
+            <LvLax4CvStrain val="1.93423" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-4.22521" unit="%"/>
+            <LeftAtrialLax4CvStrain val="10.5621" unit="%"/>
+        </frame>
+        <frame nb="19">
+            <LvAv4CvJunctionStrain val="-1.08662" unit="%"/>
+            <LvAv2CvJunctionStrain val="-6.52742" unit="%"/>
+            <LaAv4CvJunctionStrain val="7.00016" unit="%"/>
+            <LaAv2CvJunctionStrain val="-1.46199" unit="%"/>
+            <MapseAnterior val="5.41009" unit="mm"/>
+            <MapseInferior val="4.10555" unit="mm"/>
+            <LvLax2CvStrain val="-6.94884" unit="%"/>
+            <LvLax4CvStrain val="2.50188" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-5.79039" unit="%"/>
+            <LeftAtrialLax4CvStrain val="7.10652" unit="%"/>
+        </frame>
+        <frame nb="20">
+            <LvAv4CvJunctionStrain val="-1.2207" unit="%"/>
+            <LvAv2CvJunctionStrain val="-1.52181" unit="%"/>
+            <LaAv4CvJunctionStrain val="7.60843" unit="%"/>
+            <LaAv2CvJunctionStrain val="-1.46458" unit="%"/>
+            <MapseAnterior val="5.19315" unit="mm"/>
+            <MapseInferior val="4.28979" unit="mm"/>
+            <LvLax2CvStrain val="1.70564" unit="%"/>
+            <LvLax4CvStrain val="2.20926" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-6.20946" unit="%"/>
+            <LeftAtrialLax4CvStrain val="7.69658" unit="%"/>
+        </frame>
+        <frame nb="21">
+            <LvAv4CvJunctionStrain val="-0.697104" unit="%"/>
+            <LvAv2CvJunctionStrain val="-6.69859" unit="%"/>
+            <LaAv4CvJunctionStrain val="7.17943" unit="%"/>
+            <LaAv2CvJunctionStrain val="-1.20039" unit="%"/>
+            <MapseAnterior val="5.17786" unit="mm"/>
+            <MapseInferior val="4.21988" unit="mm"/>
+            <LvLax2CvStrain val="-7.61394" unit="%"/>
+            <LvLax4CvStrain val="2.82198" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-5.69544" unit="%"/>
+            <LeftAtrialLax4CvStrain val="7.26369" unit="%"/>
+        </frame>
+        <frame nb="22">
+            <LvAv4CvJunctionStrain val="-0.393523" unit="%"/>
+            <LvAv2CvJunctionStrain val="-0.951324" unit="%"/>
+            <LaAv4CvJunctionStrain val="7.91715" unit="%"/>
+            <LaAv2CvJunctionStrain val="10.5689" unit="%"/>
+            <MapseAnterior val="4.02753" unit="mm"/>
+            <MapseInferior val="45.1065" unit="mm"/>
+            <LvLax2CvStrain val="2.19921" unit="%"/>
+            <LvLax4CvStrain val="3.15019" unit="%"/>
+            <LeftAtrialLax2CvStrain val="11.1688" unit="%"/>
+            <LeftAtrialLax4CvStrain val="8.18775" unit="%"/>
+        </frame>
+        <frame nb="23">
+            <LvAv4CvJunctionStrain val="1.45737" unit="%"/>
+            <LvAv2CvJunctionStrain val="-4.72419" unit="%"/>
+            <LaAv4CvJunctionStrain val="6.53031" unit="%"/>
+            <LaAv2CvJunctionStrain val="-10.0486" unit="%"/>
+            <MapseAnterior val="41.7989" unit="mm"/>
+            <MapseInferior val="2.81638" unit="mm"/>
+            <LvLax2CvStrain val="-1.68175" unit="%"/>
+            <LvLax4CvStrain val="4.98797" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-14.088" unit="%"/>
+            <LeftAtrialLax4CvStrain val="6.62952" unit="%"/>
+        </frame>
+        <frame nb="24">
+            <LvAv4CvJunctionStrain val="1.58701" unit="%"/>
+            <LvAv2CvJunctionStrain val="-0.885499" unit="%"/>
+            <LaAv4CvJunctionStrain val="-3.24282" unit="%"/>
+            <LaAv2CvJunctionStrain val="-12.1011" unit="%"/>
+            <MapseAnterior val="1.60558" unit="mm"/>
+            <MapseInferior val="0" unit="mm"/>
+            <LvLax2CvStrain val="-1.42184" unit="%"/>
+            <LvLax4CvStrain val="2.44599" unit="%"/>
+            <LeftAtrialLax2CvStrain val="-17.6147" unit="%"/>
+            <LeftAtrialLax4CvStrain val="-3.20847" unit="%"/>
+        </frame>
+        <frame nb="25">
+            <LvAv4CvJunctionStrain val="-1.53843" unit="%"/>
+            <LvAv2CvJunctionStrain val="0" unit="%"/>
+            <LaAv4CvJunctionStrain val="-4.62025" unit="%"/>
+            <LaAv2CvJunctionStrain val="0" unit="%"/>
+            <MapseAnterior val="0" unit="mm"/>
+            <MapseInferior val="0" unit="mm"/>
+            <LvLax2CvStrain val="0" unit="%"/>
+            <LvLax4CvStrain val="-2.17829" unit="%"/>
+            <LeftAtrialLax2CvStrain val="0" unit="%"/>
+            <LeftAtrialLax4CvStrain val="-4.37352" unit="%"/>
+        </frame>
+    </LongAxisStrainGraphResults>
+    <Biplanar>
+        <EDV val="122.638" unit="ml"/>
+        <ESV val="45.184" unit="ml"/>
+        <LVEDAV val="50.4152" unit="ml"/>
+        <LVESAV val="94.0478" unit="ml"/>
+        <PhaseIndex_diast val="2"/>
+        <PhaseIndex_syst val="12"/>
+        <SV val="77.4544" unit="ml"/>
+        <HR val="60" unit="1/min"/>
+        <CO val="4.64727" unit="l/min"/>
+        <EF val="63.1568" unit="%"/>
+        <MyoMass_diast val="81.8864" unit="g"/>
+        <MyoMass_syst val="96.8738" unit="g"/>
+        <MinLeftAtrialVolume val="47.5937" unit="ml"/>
+        <PhaseMinLeftAtrialVolume val="1"/>
+        <MaxLeftAtrialVolume val="96.9708" unit="ml"/>
+        <PhaseMaxLAV val="13"/>
+        <LeftAtrialEjectionFraction val="50.9196" unit="%"/>
+        <AverageLvLongAxisStrain val="-16.6341" unit="%"/>
+        <AverageLvLongAxisDifference val="-14.4886" unit="mm"/>
+        <AverageLvAvJunctionStrain val="-15.9543" unit="%"/>
+        <AverageLvAvJunctionDifference val="-14.3462" unit="mm"/>
+        <AverageLaLongAxisStrain val="8.97998" unit="%"/>
+        <AverageLaLongAxisDifference val="4.45064" unit="mm"/>
+        <AverageLaAvJunctionStrain val="11.4228" unit="%"/>
+        <AverageLaAvJunctionDifference val="5.90211" unit="mm"/>
+        <frame nb="1">
+            <LVVolume val="120.04"/>
+            <MyoVolume val="93.4956"/>
+            <LaVolume val="47.5937"/>
+        </frame>
+        <frame nb="2">
+            <LVVolume val="122.638"/>
+            <MyoVolume val="77.9871"/>
+            <LaVolume val="50.4152"/>
+        </frame>
+        <frame nb="3">
+            <LVVolume val="119.426"/>
+            <MyoVolume val="87.7831"/>
+            <LaVolume val="58.0917"/>
+        </frame>
+        <frame nb="4">
+            <LVVolume val="104.147"/>
+            <MyoVolume val="88.9266"/>
+            <LaVolume val="63.3843"/>
+        </frame>
+        <frame nb="5">
+            <LVVolume val="94.1578"/>
+            <MyoVolume val="86.8882"/>
+            <LaVolume val="70.0786"/>
+        </frame>
+        <frame nb="6">
+            <LVVolume val="81.6618"/>
+            <MyoVolume val="79.0942"/>
+            <LaVolume val="74.4961"/>
+        </frame>
+        <frame nb="7">
+            <LVVolume val="65.9754"/>
+            <MyoVolume val="86.216"/>
+            <LaVolume val="81.3214"/>
+        </frame>
+        <frame nb="8">
+            <LVVolume val="56.0446"/>
+            <MyoVolume val="90.9135"/>
+            <LaVolume val="89.0297"/>
+        </frame>
+        <frame nb="9">
+            <LVVolume val="52.2899"/>
+            <MyoVolume val="91.3869"/>
+            <LaVolume val="93.0629"/>
+        </frame>
+        <frame nb="10">
+            <LVVolume val="48.7821"/>
+            <MyoVolume val="91.6398"/>
+            <LaVolume val="92.4176"/>
+        </frame>
+        <frame nb="11">
+            <LVVolume val="47.5106"/>
+            <MyoVolume val="92.6427"/>
+            <LaVolume val="93.9342"/>
+        </frame>
+        <frame nb="12">
+            <LVVolume val="45.184"/>
+            <MyoVolume val="92.2607"/>
+            <LaVolume val="94.0478"/>
+        </frame>
+        <frame nb="13">
+            <LVVolume val="47.7789"/>
+            <MyoVolume val="93.3019"/>
+            <LaVolume val="96.9708"/>
+        </frame>
+        <frame nb="14">
+            <LVVolume val="54.9572"/>
+            <MyoVolume val="95.687"/>
+            <LaVolume val="88.9849"/>
+        </frame>
+        <frame nb="15">
+            <LVVolume val="68.9418"/>
+            <MyoVolume val="89.9345"/>
+            <LaVolume val="85.3717"/>
+        </frame>
+        <frame nb="16">
+            <LVVolume val="77.5152"/>
+            <MyoVolume val="87.1682"/>
+            <LaVolume val="82.3288"/>
+        </frame>
+        <frame nb="17">
+            <LVVolume val="83.703"/>
+            <MyoVolume val="84.7487"/>
+            <LaVolume val="80.8896"/>
+        </frame>
+        <frame nb="18">
+            <LVVolume val="88.315"/>
+            <MyoVolume val="82.6189"/>
+            <LaVolume val="77.121"/>
+        </frame>
+        <frame nb="19">
+            <LVVolume val="90.8698"/>
+            <MyoVolume val="82.5551"/>
+            <LaVolume val="80.6285"/>
+        </frame>
+        <frame nb="20">
+            <LVVolume val="90.8929"/>
+            <MyoVolume val="74.1549"/>
+            <LaVolume val="80.5768"/>
+        </frame>
+        <frame nb="21">
+            <LVVolume val="92.6542"/>
+            <MyoVolume val="83.7385"/>
+            <LaVolume val="81.1174"/>
+        </frame>
+        <frame nb="22">
+            <LVVolume val="89.8848"/>
+            <MyoVolume val="76.4986"/>
+            <LaVolume val="79.8094"/>
+        </frame>
+        <frame nb="23">
+            <LVVolume val="101.51"/>
+            <MyoVolume val="78.0915"/>
+            <LaVolume val="66.2508"/>
+        </frame>
+        <frame nb="24">
+            <LVVolume val="114.45"/>
+            <MyoVolume val="97.7502"/>
+            <LaVolume val="56.3987"/>
+        </frame>
+        <frame nb="25">
+            <LVVolume val="116.619"/>
+            <MyoVolume val="92.7551"/>
+            <LaVolume val="49.121"/>
+        </frame>
+    </Biplanar>
+</BiTriPlanarFunction>
+</Report>

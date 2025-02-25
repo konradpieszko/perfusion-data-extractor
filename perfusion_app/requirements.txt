@@ -1,0 +1,8 @@
+Flask
+pydicom
+matplotlib
+numpy
+pandas
+easyocr
+pytesseract
+Pillow
